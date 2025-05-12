@@ -2,7 +2,7 @@ body {
   font-family: 'Amiri', 'Tahoma', sans-serif;
   margin: 0;
   padding: 0;
-  background-image: url('bodybgg.png');
+  background-image: url(images/bodybgg.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -21,6 +21,7 @@ h2{
   color: white;
 }
 .custom-header .overlay {
+  
   /* From top: deep burgundy → transparent */
   background: linear-gradient(
     to bottom,
@@ -43,7 +44,6 @@ h2{
 
 .custom-header {
   position: relative;
-  
   height: 200px;
   color: #fff;
 }
