@@ -29,8 +29,17 @@ h2{
   );
 }
 .custom-header {
-  backdrop-filter: blur(2px);
+  position: relative;
+  height: auto; /* Optional: can use fixed height if desired */
+  min-height: 250px; /* Adjust based on your image aspect ratio */
+  color: #fff;
+  background-image: url(images/abedlogo.jpeg); /* or the new image you uploaded */
+  background-size: cover; /* Cover ensures it fills the area */
+  background-position: center center; /* Center the image */
+  background-repeat: no-repeat;
+  background-attachment: scroll;
 }
+
 
 .custom-header {
   position: relative;
